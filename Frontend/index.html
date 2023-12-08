@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gimmes My laughy lines</title>
+    <link href="style.css" rel='stylesheet'>
+</head>
+<body>
+    <div>
+        <h1 id='JokeFrontEndTitle'>Too Funny Too Sexy</h1>
+        <br>
+        <form onsubmit="return false">
+            Which category do you want?
+                <select id="category">
+                    <option value="DadJoke" id="DadJoke">Dad Joke</option>
+                    <option value="KnockKnock" id="knock">Knock Knock</option>
+                    <option value="PunJoke" id="pun">Pun Joke</option>
+                </select>
+                <br>
+                <br>
+            amount of Jokes:
+                <input type="number" name="amount" id="amount">
+            
+            <input type="submit" onclick=Submit()>
+
+
+
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

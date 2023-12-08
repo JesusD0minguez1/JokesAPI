@@ -1,0 +1,14 @@
+extends layout 
+block content
+    form(id='form' method='post' action='/create')
+        label(for='joke') Add Joke: 
+        input(type="text" name='joke') 
+        br
+        br
+        label(for='category') Select Category: 
+        select(name="category")
+            option(value="DadJoke") Dad Joke 
+            option(value="KnockJoke") Knock knock Joke
+            option(value="BatmanJoke") Batman Joke
+        br
+        input(type="submit" value="Add Joke")
